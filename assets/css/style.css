@@ -539,6 +539,304 @@ h2.section-title, h2, h3.section-title, h3 {
   margin-bottom: 34px;
   color: var(--main-blue);
 }
+/* Showcase Section Styles */
+.showcase-section {
+  background: white;
+  padding: 60px 20px;
+}
+
+.showcase-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.showcase-content h2 {
+  font-size: 2.5rem;
+  color: var(--main-blue);
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+.showcase-pops {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.showcase-pop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.showcase-pop span {
+  font-weight: 600;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+/* Pop Figure Styles */
+.pop-figure {
+  width: 80px;
+  height: 120px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pop-body {
+  width: 60px;
+  height: 80px;
+  border-radius: 30px 30px 15px 15px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.pop-head {
+  width: 50px;
+  height: 50px;
+  background: #ffdbac;
+  border-radius: 50%;
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Sport-specific styles */
+.pop-american-football .pop-body {
+  background: #6b7280;
+}
+
+.pop-american-football .pop-number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.pop-soccer .pop-body {
+  background: white;
+  border: 2px solid #1f2937;
+}
+
+.pop-soccer .pop-ball {
+  position: absolute;
+  bottom: -10px;
+  right: -5px;
+  width: 15px;
+  height: 15px;
+  background: #1f2937;
+  border-radius: 50%;
+}
+
+.pop-boxing .pop-body {
+  background: #dc2626;
+}
+
+.pop-boxing .pop-gloves {
+  position: absolute;
+  top: 20px;
+  left: -10px;
+  width: 20px;
+  height: 15px;
+  background: #dc2626;
+  border-radius: 10px;
+}
+
+.pop-boxing .pop-gloves::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -25px;
+  width: 20px;
+  height: 15px;
+  background: #dc2626;
+  border-radius: 10px;
+}
+
+.pop-swimming .pop-body {
+  background: #2563eb;
+}
+
+.pop-swimming .pop-goggles {
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 15px;
+  background: #2563eb;
+  border-radius: 15px;
+}
+
+.pop-tennis .pop-body {
+  background: white;
+  border: 2px solid #1f2937;
+}
+
+.pop-tennis .pop-racket {
+  position: absolute;
+  bottom: -5px;
+  right: -8px;
+  width: 20px;
+  height: 25px;
+  background: #1f2937;
+  border-radius: 10px;
+}
+
+/* Color variations for products */
+.color-variations {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.color-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid #e5e7eb;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.color-dot:hover {
+  transform: scale(1.2);
+}
+
+.color-dot.black {
+  background: #1f2937;
+}
+
+.color-dot.grey {
+  background: #6b7280;
+}
+
+.color-dot.red {
+  background: #dc2626;
+}
+
+.color-dot.blue {
+  background: #2563eb;
+}
+
+/* Products Section - Cleaned up styles */
+.products-section {
+  background-color: white;
+  padding: 50px 0px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.product-card {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 16px rgba(41,37,53,0.10);
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 38px rgba(41,37,53,0.18);
+}
+
+.product-card h3 {
+  font-size: 1.1rem;
+  margin: 15px 0 10px 0;
+  color: #333;
+  font-weight: 600;
+}
+
+.product-card .price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--main-blue);
+  margin: 10px 0;
+}
+
+/* Product image placeholder */
+.product-image-placeholder {
+  width: 100%;
+  height: 200px;
+  background: #f3f4f6;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9ca3af;
+  font-size: 0.9rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .showcase-pops {
+    gap: 20px;
+  }
+  
+  .pop-figure {
+    width: 60px;
+    height: 100px;
+  }
+  
+  .pop-body {
+    width: 50px;
+    height: 70px;
+  }
+  
+  .pop-head {
+    width: 40px;
+    height: 40px;
+    top: -20px;
+  }
+  
+  .showcase-content h2 {
+    font-size: 2rem;
+  }
+  
+  .products-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 0 20px;
+  }
+  
+  .product-card {
+    padding: 15px;
+  }
+}
+
 @media (max-width: 700px) {
   .category-main-title,
   .new-arrivals-title,
