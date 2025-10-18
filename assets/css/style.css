@@ -819,10 +819,6 @@ main {
 }
 
 @media (max-width: 480px) {
-  .new-arrivals-grid,
-  .community-feed-grid {
-    grid-template-columns: 1fr;
-  }
   
   .showcase-pops {
     gap: 15px;
@@ -837,35 +833,51 @@ main {
    ======================================== */
    @media (max-width: 480px) {
 
-    /* ===== Reset de grids ===== */
+    /* Ajuste geral das seções */
+    main, section {
+      padding: 15px 10px;
+    }
+  
+    /* Logo section responsiva */
+    .logo-section {
+      height: auto;
+    }
+    .logo-section img {
+      height: auto;
+      max-width: 100%;
+    }
+  
+    /* Grids - todas as seções em 1 coluna */
     .category-highlight-grid,
     .new-arrivals-grid,
     .community-feed-grid,
-    .products-grid {
-      grid-template-columns: 1fr;
-      gap: 12px;
-      padding: 0 10px;
+    .products-grid,
+    .why-cards-grid {
+      display: grid;
+      grid-template-columns: 1fr !important;
+      gap: 12px !important;
+      margin: 0;
+      padding: 0;
     }
   
-    /* ===== Ajuste de cards ===== */
+    /* Ajustes de cards */
     .category-highlight-card,
     .new-arrival-card,
     .product-card,
     .why-card {
-      min-width: 0;
+      width: 100% !important;
       min-height: auto;
-      padding: 15px;
+      padding: 10px;
     }
-  
-    /* ===== Imagens responsivas ===== */
     .category-highlight-card img,
     .new-arrival-card img,
-    .product-card img {
+    .product-card img,
+    .why-card img {
       width: 100%;
       height: auto;
     }
   
-    /* ===== Texto ===== */
+    /* Fontes menores */
     .category-main-title,
     .new-arrivals-title,
     .why-title,
@@ -880,83 +892,28 @@ main {
       font-size: 1rem;
     }
   
-    .price {
-      font-size: 1rem;
-    }
-  
-    .showcase-pop span {
-      font-size: 0.8rem;
-    }
-  
-    /* ===== Navbar ===== */
+    /* Navbar em coluna */
     .main-nav ul {
       flex-direction: column;
-      gap: 12px;
+      gap: 10px;
     }
-  
     .main-nav a {
       font-size: 0.9rem;
     }
   
-    /* ===== Hero Section ===== */
-    .hero-section {
-      padding: 40px 10px;
-    }
-  
-    .hero-content h1 {
-      font-size: 1.8rem;
-    }
-  
-    .hero-content p {
-      font-size: 1rem;
-    }
-  
-    /* ===== Padding geral ===== */
-    main,
-    .category-highlight-section,
-    .new-arrivals-section,
-    .why-buy-section,
-    .community-feed-section,
-    .showcase-section {
-      padding: 20px 10px;
-    }
-  
-    /* ===== Footer ===== */
+    /* Footer */
     .footer-container {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr !important;
       text-align: center;
-      gap: 20px;
     }
-  
     .footer-socials {
       justify-content: center;
     }
   
-    /* ===== Pop Figures ===== */
-    .pop-figure {
-      width: 60px;
-      height: 100px;
-    }
-  
-    .pop-body {
-      width: 50px;
-      height: 70px;
-    }
-  
-    .pop-head {
-      width: 40px;
-      height: 40px;
-      top: -20px;
-    }
-  
-    /* ===== Products Section ===== */
-    .products-section {
-      padding: 30px 10px;
-    }
-  
-    .product-card {
-      padding: 15px;
-    }
+    /* Pop figures */
+    .pop-figure { width: 60px; height: 100px; }
+    .pop-body { width: 50px; height: 70px; }
+    .pop-head { width: 40px; height: 40px; top: -20px; }
   
   }
   
