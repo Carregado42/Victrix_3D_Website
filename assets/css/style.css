@@ -833,6 +833,24 @@ main {
    ======================================== */
    @media (max-width: 480px) {
 
+    .topbar {
+      width: 100%;
+      left: 0;
+      top: 0;
+      padding: 0;
+    }
+  
+    .header-main {
+      padding: 0 10px; /* espaço interno mínimo */
+      justify-content: space-between;
+    }
+  
+    .announcement-bar {
+      padding: 10px 5px;
+      font-size: 0.8rem;
+      text-align: center;
+    }
+
     /* Ajuste geral das seções */
     main, section {
       padding: 15px 10px;
