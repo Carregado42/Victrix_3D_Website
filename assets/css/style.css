@@ -832,3 +832,131 @@ main {
     font-size: 0.8rem;
   }
 }
+/* ========================================
+   MOBILE CSS - ATÉ 480px
+   ======================================== */
+   @media (max-width: 480px) {
+
+    /* ===== Reset de grids ===== */
+    .category-highlight-grid,
+    .new-arrivals-grid,
+    .community-feed-grid,
+    .products-grid {
+      grid-template-columns: 1fr;
+      gap: 12px;
+      padding: 0 10px;
+    }
+  
+    /* ===== Ajuste de cards ===== */
+    .category-highlight-card,
+    .new-arrival-card,
+    .product-card,
+    .why-card {
+      min-width: 0;
+      min-height: auto;
+      padding: 15px;
+    }
+  
+    /* ===== Imagens responsivas ===== */
+    .category-highlight-card img,
+    .new-arrival-card img,
+    .product-card img {
+      width: 100%;
+      height: auto;
+    }
+  
+    /* ===== Texto ===== */
+    .category-main-title,
+    .new-arrivals-title,
+    .why-title,
+    .community-feed-title,
+    .showcase-content h2 {
+      font-size: 1.5rem;
+    }
+  
+    .new-arrival-card h4,
+    .product-card h3,
+    .why-card-text h3 {
+      font-size: 1rem;
+    }
+  
+    .price {
+      font-size: 1rem;
+    }
+  
+    .showcase-pop span {
+      font-size: 0.8rem;
+    }
+  
+    /* ===== Navbar ===== */
+    .main-nav ul {
+      flex-direction: column;
+      gap: 12px;
+    }
+  
+    .main-nav a {
+      font-size: 0.9rem;
+    }
+  
+    /* ===== Hero Section ===== */
+    .hero-section {
+      padding: 40px 10px;
+    }
+  
+    .hero-content h1 {
+      font-size: 1.8rem;
+    }
+  
+    .hero-content p {
+      font-size: 1rem;
+    }
+  
+    /* ===== Padding geral ===== */
+    main,
+    .category-highlight-section,
+    .new-arrivals-section,
+    .why-buy-section,
+    .community-feed-section,
+    .showcase-section {
+      padding: 20px 10px;
+    }
+  
+    /* ===== Footer ===== */
+    .footer-container {
+      grid-template-columns: 1fr;
+      text-align: center;
+      gap: 20px;
+    }
+  
+    .footer-socials {
+      justify-content: center;
+    }
+  
+    /* ===== Pop Figures ===== */
+    .pop-figure {
+      width: 60px;
+      height: 100px;
+    }
+  
+    .pop-body {
+      width: 50px;
+      height: 70px;
+    }
+  
+    .pop-head {
+      width: 40px;
+      height: 40px;
+      top: -20px;
+    }
+  
+    /* ===== Products Section ===== */
+    .products-section {
+      padding: 30px 10px;
+    }
+  
+    .product-card {
+      padding: 15px;
+    }
+  
+  }
+  
