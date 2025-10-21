@@ -26,6 +26,30 @@ body {
   color: var(--text-dark);
   background: #fff;
 }
+/* ========================================
+   Whatsapp
+   ======================================== */
+
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+  z-index: 1000;
+}
+.whatsapp-float img {
+  width: 35px;
+  margin-top: 12px;
+}
+.whatsapp-float:hover {
+  background-color: #1EBE5B;
+}
 
 /* ========================================
    3. HEADER 
