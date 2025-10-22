@@ -7,7 +7,8 @@
       "new": true,
       "description": "peça conquistas numero 2",
       "category": "Conquistas",
-      "image": "../assets/images/logo.png"
+      "image": "../assets/images/logo.png",
+      "image2": "../assets/images/favicon.png"
     }
 
   ]

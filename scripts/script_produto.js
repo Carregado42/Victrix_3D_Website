@@ -35,7 +35,7 @@ async function carregarProduto() {
 
     // Miniaturas (se houver)
     thumbsContainer.innerHTML = '';
-    const images = produto.images || [produto.image, produto.image, produto.image, produto.image];
+    const images = produto.images || [produto.image, produto.image2, produto.image, produto.image];
     images.forEach((imgSrc, index) => {
       const thumb = document.createElement('img');
       thumb.src = imgSrc;
