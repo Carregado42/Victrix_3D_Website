@@ -1,4 +1,4 @@
-fetch('../json/conquistas.json')
+fetch('../json/decoracao.json')
   .then(res => res.json())
   .then(products => {
     const grid = document.getElementById('product-display-grid');
@@ -8,7 +8,7 @@ fetch('../json/conquistas.json')
       card.className = 'product-card';
     
       card.innerHTML = `
-        <a href="../pages/produto.html?id=${p.id}&categoria=conquistas" class="product-link">
+        <a href="../pages/produto.html?id=${p.id}&categoria=decoracao" class="product-link">
           ${p.new ? '<span class="badge-new">Novo</span>' : ''}
           <img src="${p.image}" alt="${p.name}" />
           <h4>${p.name}</h4>
@@ -16,6 +16,6 @@ fetch('../json/conquistas.json')
         </a>
       `;
       grid.appendChild(card);
-    });
+    });  
   })
   .catch(err => console.error('Erro ao carregar produtos:', err));

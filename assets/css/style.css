@@ -83,6 +83,15 @@ body {
   color: black;
 
 }
+
+.brand {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: inherit;
+}
+
 .brand-group {
   display: flex;
   align-items: center;
@@ -93,12 +102,6 @@ body {
   width: 24px;
   height: 24px;
   stroke: black;
-}
-
-.brand {
-  font-size: 1.25rem;
-  font-weight: 700;
-  letter-spacing: 1px;
 }
 
 .main-nav ul {
@@ -805,6 +808,12 @@ main {
     font-weight: bold;
     color: var(--main-blue);
   }
+  .product-link {
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit;        /* Mantém a cor original do texto */
+    display: block;        /* Garante que todo o card é clicável */
+  }
+  
   
   @media (max-width: 768px) {
     .category-main-title,
@@ -1229,6 +1238,24 @@ main {
     .pop-figure { width: 60px; height: 100px; }
     .pop-body { width: 50px; height: 70px; }
     .pop-head { width: 40px; height: 40px; top: -20px; }
-  
-  }
-  
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+

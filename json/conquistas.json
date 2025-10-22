@@ -1,0 +1,14 @@
+[
+    {
+      "id": 1,
+      "name": "Peça numero 21",
+      "price": "20€ ",
+      "stock": "Disponível",
+      "new": true,
+      "description": "peça conquistas numero 2",
+      "category": "Conquistas",
+      "image": "../assets/images/logo.png"
+    }
+
+  ]
+  
