@@ -1,13 +1,13 @@
 [
     {
       "id": 1,
-      "name": "Peça numero 21",
+      "name": "Quadro de medalha personalizado",
       "price": "20€ ",
-      "stock": "Disponível",
+      "stock": 1,
       "new": true,
-      "description": "peça conquistas numero 2",
+      "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
       "category": "Conquistas",
-      "image": "../assets/images/logo.png",
+      "image": "../assets/products/conquistas/quadro.jpg",
       "image2": "../assets/images/imagempecas.png"
     }
 
