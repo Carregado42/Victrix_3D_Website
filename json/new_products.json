@@ -1,32 +1,49 @@
 [
     {
       "id": 1,
-      "name": "Peça Exclusiva",
-      "price": "Sob Consulta",
-      "image": "assets/images/logo.png",
-      "new": true
+      "name": "Quadro de medalha personalizado",
+      "price": "20€ ",
+      "stock": 1,
+      "new": true,
+      "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
+      "category": "Conquistas",
+      "image": "../assets/images/logo.png",
+      "image2": "../assets/images/imagempecas.png"
     },
     {
       "id": 2,
-      "name": "Pop BJJ",
-      "price": "12€",
-      "image": "assets/images/logo.png",
-      "new": true
+      "name": "Quadro de medalha duplo personalizado",
+      "price": "40€ ",
+      "stock": 1,
+      "new": true,
+      "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
+      "category": "Conquistas",
+      "image": "../assets/images/logo.png",
+      "image2": "../assets/images/imagempecas.png"
     },
     {
-      "id": 3,
-      "name": "Pop Ténis",
-      "price": "12€",
-      "image": "assets/images/logo.png",
-      "new": true
+      "id": 1,
+      "name": "Quadro de medalha personalizado",
+      "price": "20€ ",
+      "stock": 1,
+      "new": true,
+      "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
+      "category": "Conquistas",
+      "image": "../assets/images/logo.png",
+      "image2": "../assets/images/imagempecas.png"
     },
     {
-      "id": 4,
-      "name": "peça 4 new",
-      "price": "19€",
-      "image": "assets/images/logo.png",
-      "new": true
-    }    
+      "id": 2,
+      "name": "Quadro de medalha duplo personalizado",
+      "price": "40€ ",
+      "stock": 1,
+      "new": true,
+      "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
+      "category": "Conquistas",
+      "image": "../assets/images/logo.png",
+      "image2": "../assets/images/imagempecas.png"
+    }
+
   
   ]
   
