@@ -55,7 +55,7 @@ body {
    3. HEADER 
    ======================================== */
 .topbar {
-  background: #1f2937;
+  background: var(--announcement-bar);
   color: white;
   display: flex;
   flex-direction: column; /* Muda a direção para vertical */
@@ -64,8 +64,6 @@ body {
   z-index: 100;
 }
 .announcement-bar {
-  background: var(--announcement-bar);
-  color: white;
   height: 50px;
   text-align: center;
   padding: 10px;
@@ -1125,6 +1123,106 @@ main {
 }
 
 @media (max-width: 480px) {
+
+  .topbar {
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 0;
+  }
+
+  .header-main {
+    padding: 0 10px; /* espaço interno mínimo */
+    justify-content: space-between;
+  }
+
+  .announcement-bar {
+    padding: 10px 5px;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  /* Ajuste geral das seções */
+  main, section {
+    padding: 15px 10px;
+  }
+
+  /* Logo section responsiva */
+  .logo-section {
+    height: auto;
+  }
+  .logo-section img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  /* Grids - todas as seções em 1 coluna */
+  .category-highlight-grid,
+  .new-arrivals-grid,
+  .community-feed-grid,
+  .products-grid,
+  .why-cards-grid {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    gap: 12px !important;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Ajustes de cards */
+  .category-highlight-card,
+  .new-arrival-card,
+  .product-card,
+  .why-card {
+    width: 100% !important;
+    min-height: auto;
+    padding: 10px;
+  }
+  .category-highlight-card img,
+  .new-arrival-card img,
+  .product-card img,
+  .why-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Fontes menores */
+  .category-main-title,
+  .new-arrivals-title,
+  .why-title,
+  .community-feed-title,
+  .showcase-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .new-arrival-card h4,
+  .product-card h3,
+  .why-card-text h3 {
+    font-size: 1rem;
+  }
+
+  /* Navbar em coluna */
+  .main-nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .main-nav a {
+    font-size: 0.9rem;
+  }
+
+  /* Footer */
+  .footer-container {
+    grid-template-columns: 1fr !important;
+    text-align: center;
+  }
+  .footer-socials {
+    justify-content: center;
+  }
+
+  /* Pop figures */
+  .pop-figure { width: 60px; height: 100px; }
+  .pop-body { width: 50px; height: 70px; }
+  .pop-head { width: 40px; height: 40px; top: -20px; }
   
   .showcase-pops {
     gap: 15px;
@@ -1133,129 +1231,5 @@ main {
   .showcase-pop span {
     font-size: 0.8rem;
   }
+
 }
-/* ========================================
-   MOBILE CSS - ATÉ 480px
-   ======================================== */
-   @media (max-width: 480px) {
-
-    .topbar {
-      width: 100%;
-      left: 0;
-      top: 0;
-      padding: 0;
-    }
-  
-    .header-main {
-      padding: 0 10px; /* espaço interno mínimo */
-      justify-content: space-between;
-    }
-  
-    .announcement-bar {
-      padding: 10px 5px;
-      font-size: 0.8rem;
-      text-align: center;
-    }
-
-    /* Ajuste geral das seções */
-    main, section {
-      padding: 15px 10px;
-    }
-  
-    /* Logo section responsiva */
-    .logo-section {
-      height: auto;
-    }
-    .logo-section img {
-      height: auto;
-      max-width: 100%;
-    }
-  
-    /* Grids - todas as seções em 1 coluna */
-    .category-highlight-grid,
-    .new-arrivals-grid,
-    .community-feed-grid,
-    .products-grid,
-    .why-cards-grid {
-      display: grid;
-      grid-template-columns: 1fr !important;
-      gap: 12px !important;
-      margin: 0;
-      padding: 0;
-    }
-  
-    /* Ajustes de cards */
-    .category-highlight-card,
-    .new-arrival-card,
-    .product-card,
-    .why-card {
-      width: 100% !important;
-      min-height: auto;
-      padding: 10px;
-    }
-    .category-highlight-card img,
-    .new-arrival-card img,
-    .product-card img,
-    .why-card img {
-      width: 100%;
-      height: auto;
-    }
-  
-    /* Fontes menores */
-    .category-main-title,
-    .new-arrivals-title,
-    .why-title,
-    .community-feed-title,
-    .showcase-content h2 {
-      font-size: 1.5rem;
-    }
-  
-    .new-arrival-card h4,
-    .product-card h3,
-    .why-card-text h3 {
-      font-size: 1rem;
-    }
-  
-    /* Navbar em coluna */
-    .main-nav ul {
-      flex-direction: column;
-      gap: 10px;
-    }
-    .main-nav a {
-      font-size: 0.9rem;
-    }
-  
-    /* Footer */
-    .footer-container {
-      grid-template-columns: 1fr !important;
-      text-align: center;
-    }
-    .footer-socials {
-      justify-content: center;
-    }
-  
-    /* Pop figures */
-    .pop-figure { width: 60px; height: 100px; }
-    .pop-body { width: 50px; height: 70px; }
-    .pop-head { width: 40px; height: 40px; top: -20px; }
-    
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
