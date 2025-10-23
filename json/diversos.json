@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "name": "Peça sobre medida",
+      "price": "preço 10 ",
+      "image": "../assets/images/logo.png",
+      "new": false,
+      "description": "descriçao bla bla bla .",
+      "category": "Acessórios",
+      "stock": "Disponível"
+    },
+    {
+      "id": 2,
+      "name": "Nome peça",
+      "price": "preço 10 ",
+      "image": "../assets/images/logo.png",
+      "new": true,
+      "description": "descriçao bla bla bla .",
+      "category": "Diversos",
+      "stock": "Disponível"
+    },
+    {
+        "id": 3,
+        "name": "Nome peça 3 diversos",
+        "price": "preço 10 ",
+        "image": "../assets/images/logo.png",
+        "new": true,
+        "description": "descriçao bla bla bla .",
+        "category": "Diversos",
+        "stock": "Disponível"
+      }
+
+  ]
+  

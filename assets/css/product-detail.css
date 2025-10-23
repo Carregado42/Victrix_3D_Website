@@ -1,0 +1,96 @@
+/* product-detail.css */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #f9fafb;
+    color: #1f2937;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section.product-detail-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+  }
+  
+  .product-images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .product-image-main {
+    width: 100%;
+    max-width: 600px;
+    height: 600px;
+    object-fit: contain;
+    border-radius: 12px;
+    background: #f3f4f6;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-image-main:hover {
+    transform: scale(1.03);
+  }
+  
+  .product-image-thumbs {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .product-image-thumbs img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .product-image-thumbs img:hover,
+  .product-image-thumbs img.active {
+    border-color: #2563eb;
+  }
+  
+  .product-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+  
+  .product-info h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin: 0;
+  }
+  
+  .product-info .price {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2563eb;
+  }
+  
+  .availability {
+    font-size: 1rem;
+  }
+  
+  .in-stock { color: #28a745; font-weight: 700; }
+  .out-of-stock { color: #dc2626; font-weight: 700; }
+  
+  .product-info p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #1f2937;
+  }
+  

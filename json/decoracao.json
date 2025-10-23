@@ -1,0 +1,22 @@
+[
+    {
+    "id": 1,
+    "name": "Peça sobre medida",
+    "price": "preço 10 ",
+    "image": "../assets/images/logo.png",
+    "new": false,
+    "description": "descriçao bla bla bla .",
+    "category": "Acessórios",
+    "stock": "Disponível"
+  },
+  {
+    "id": 2,
+    "name": "Peça numero 2",
+    "price": "20€ ",
+    "stock": "Disponível",
+    "new": true,
+    "description": "peça decoraçao numero 2",
+    "category": "Decoraçao",
+    "image": "../assets/images/logo.png"
+  }
+]

@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "name": "Peça Exclusiva",
+      "price": "Sob Consulta",
+      "image": "assets/images/logo.png",
+      "new": true
+    },
+    {
+      "id": 2,
+      "name": "Pop BJJ",
+      "price": "12€",
+      "image": "assets/images/logo.png",
+      "new": true
+    },
+    {
+      "id": 3,
+      "name": "Pop Ténis",
+      "price": "12€",
+      "image": "assets/images/logo.png",
+      "new": true
+    },
+    {
+      "id": 4,
+      "name": "peça 4 new",
+      "price": "19€",
+      "image": "assets/images/logo.png",
+      "new": true
+    }    
+  
+  ]
+  
