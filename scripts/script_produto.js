@@ -42,17 +42,23 @@ function criarEstruturaProduto(produto) {
     </section>
   `;
 
-  // ======= BOTÃO DE VOLTAR =======
-  const btnVoltar = document.getElementById('btn-voltar');
-  btnVoltar.addEventListener('click', () => {
+// ======= BOTÃO DE VOLTAR =======
+const btnVoltar = document.getElementById('btn-voltar');
+btnVoltar.addEventListener('click', () => {
     if (categoria) {
-      // Redireciona para a página da categoria (nome do HTML = categoria)
-      window.location.href = `./${categoria}.html`;
+        // Verifica se a categoria é 'new_products' (ou o nome que usa para novidades)
+        if (categoria === 'new_products') {
+            // Redireciona para a página principal
+            window.location.href = `../index.html#novidades`; // Use '../index.html' para voltar um diretório e ir para o index
+        } else {
+            // Redireciona para a página da categoria (nome do HTML = categoria)
+            window.location.href = `./${categoria}.html`;
+        }
     } else {
-      // Caso não exista categoria, volta para a página anterior
-      window.history.back();
+        // Caso não exista categoria, volta para a página anterior
+        window.history.back();
     }
-  });
+});
 
   // ======= MINIATURAS E IMAGEM PRINCIPAL =======
   const thumbsContainer = document.getElementById('thumbs');
