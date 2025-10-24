@@ -71,7 +71,7 @@ async function loadAllProducts() {
                 ${product.new ? '<span class="badge-new">Novo</span>' : ''}
                 <img src="${product.image}" alt="${product.name}" class="product-image">
                 <h3 class="product-name">${product.name}</h3>
-                <p class="product-price">${productPriceFormatted}</p>
+                <p class="price">${productPriceFormatted}</p>
                </a>`; 
             
             grid.appendChild(productDiv);
