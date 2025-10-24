@@ -6,7 +6,7 @@
     "image": "../assets/images/logo.png",
     "new": false,
     "description": "descriçao bla bla bla .",
-    "category": "Acessórios",
+    "category": "decoracao",
     "stock": "Disponível"
   },
   {
@@ -16,7 +16,7 @@
     "stock": "Disponível",
     "new": true,
     "description": "peça decoraçao numero 2",
-    "category": "Decoraçao",
+    "category": "decoracao",
     "image": "../assets/images/logo.png"
   }
 ]
