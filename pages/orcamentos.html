@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Orçamentos | VICTRIX 3D</title>
+  <link rel="icon" href="../assets/images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+  <div id="header"></div>
+
+  <main>
+    <section class="page-hero">
+      <div class="page-hero__content">
+        <p class="page-hero__eyebrow">Orçamentos</p>
+        <h1>Tens uma ideia? Nós damos-lhe forma.</h1>
+        <p>
+          Faz o upload de imagens, medidas ou referências e diz-nos o que pretendes. Responderemos com um
+          orçamento detalhado e prazos de entrega.
+        </p>
+      </div>
+
+      <div class="page-hero__media">
+        <figure class="page-media page-media--accent">
+          <div class="page-media__placeholder">Briefing + Upload + Entrega</div>
+          <figcaption>Processo simplificado</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="page-section light">
+      <h2 class="section-title">Formulário para orçamento</h2>
+      <p class="section-subtitle">
+        Preenche com o máximo de informação possível para acelerarmos o planeamento do teu projeto.
+      </p>
+
+      <div class="form-wrapper">
+        <form class="form-grid" action="mailto:victrix3d.geral@gmail.com" method="post" enctype="multipart/form-data">
+          <label>
+            Nome
+            <input type="text" name="nome" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            Tipo de produto
+            <select name="tipo" required>
+              <option value="">Seleciona uma opção</option>
+              <option value="decoracao">Decoração</option>
+              <option value="conquistas">Troféu/Conquista</option>
+              <option value="diversos">Outros</option>
+            </select>
+          </label>
+          <label>
+            Descrição do projeto
+            <textarea name="descricao" placeholder="Dimensões, materiais, cores, prazos..." required></textarea>
+          </label>
+          <label class="upload-field">
+            Upload de ficheiro
+            <input type="file" name="referencia" accept="image/*,.pdf,.zip" />
+          </label>
+          <button type="submit" class="btn-primary">Pedir orçamento</button>
+        </form>
+        <p class="page-note">
+          Preferes enviar o briefing por outro canal? Partilha por email ou envia via Instagram/WhatsApp.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+
+  <a href="https://wa.me/351925619107" class="whatsapp-float" target="_blank" title="Fala comigo no WhatsApp">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+  </a>
+
+  <script src="../scripts/include_html.js"></script>
+</body>
+</html>
+
