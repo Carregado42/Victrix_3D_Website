@@ -1,14 +1,25 @@
 [
     {
       "id": 1,
-      "name": "Natal",
+      "name": "Candy",
       "price": "3€ ",
       "stock": 1,
       "new": true,
       "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
       "category": "Natal",
-      "image": "../assets/images/imagempecas.png"
+      "image": "../assets/products/epoca_especial/imagempecas.png"
+    },
+    {
+      "id": 2,
+      "name": "Candy",
+      "price": "3€ ",
+      "stock": 1,
+      "new": true,
+      "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
+      "category": "Natal",
+      "image": "../assets/products/epoca_especial/imagempecas.png"
     }
+
 
   ]
   
