@@ -781,6 +781,7 @@ main {
   grid-template-columns: 1fr;
   gap: 24px;
   text-align: center;
+  margin-bottom: 24px;
 }
 
 .footer-col {
@@ -1329,26 +1330,19 @@ main {
   .sobre-equipa__eyebrow {
     letter-spacing: 0.28rem;
   }
+
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 24px;
+    text-align: center;
+    margin-bottom: 24px;
+
+  }
 }
 
 @media (min-width: 768px) {
-  .header-main {
-    padding: 0 40px;
-  }
-
-  .brand {
-    font-size: 1.25rem;
-  }
-
-  .main-nav ul {
-    flex-direction: row;
-    gap: 24px;
-  }
-
-  .main-nav a {
-    font-size: 1rem;
-  }
-
   .page-hero {
     padding: 80px 5vw 60px;
     grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr);
@@ -1395,20 +1389,24 @@ main {
     padding: 18px;
   }
 
-  .footer-container {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 32px;
-    text-align: left;
-  }
+/* Organiza todas as colunas (VICTRIX 3D, Shop, Empresa, Ajuda, Info, Sociais) */
+.footer-container {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+  gap: 10px; 
+  max-width: 1200px; 
+  text-align: left; 
+}
 
-  .footer-socials {
-    justify-content: flex-start;
-  }
-
+.footer-col {
+  flex: 1 1 120px; 
+  min-width: 100px; 
+}
   .product-detail-section {
     flex-direction: row;
     align-items: flex-start;
-    gap: 32px;
+    gap: 15px;
     padding: 0 40px;
   }
 
