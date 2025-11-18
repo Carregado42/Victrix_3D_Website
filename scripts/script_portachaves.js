@@ -1,4 +1,4 @@
-fetch('../json/diversos.json')
+fetch('../json/portachaves.json')
   .then(res => res.json())
   .then(products => {
     const grid = document.getElementById('product-display-grid');
@@ -8,7 +8,7 @@ fetch('../json/diversos.json')
       card.className = 'product-card';
     
       card.innerHTML = `
-        <a href="../pages/produto.html?id=${p.id}&categoria=diversos" class="product-link">
+        <a href="../pages/produto.html?id=${p.id}&categoria=portachaves" class="product-link">
           ${p.new ? '<span class="badge-new">Novo</span>' : ''}
           <img src="${p.image}" alt="${p.name}" />
           <h4>${p.name}</h4>
