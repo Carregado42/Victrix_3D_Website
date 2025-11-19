@@ -20,7 +20,7 @@ section.product-detail-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
+  gap: 10px;
 }
 
 .product-image-main {
@@ -70,7 +70,7 @@ section.product-detail-container {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap:12px;
 }
 
 .product-name {
@@ -156,11 +156,6 @@ section.product-detail-container {
   section.product-detail-container {
     gap: 48px;
   }
-
-  .product-info {
-    gap: 18px;
-  }
-
   .product-meta {
     gap: 20px;
   }
@@ -186,11 +181,6 @@ section.product-detail-container {
     height: 600px;
     aspect-ratio: auto;
   }
-
-  .product-info {
-    gap: 20px;
-  }
-
   .price {
     font-size: 2rem;
   }
