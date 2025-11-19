@@ -28,7 +28,7 @@ function criarEstruturaProduto(produto) {
       </div>
 
       <div class="product-info">
-        <h2 class="product-name">${produto.name}</h2>
+        <h2 class="product-name">${produto.name}</h2> 
         <p class="product-category">${produto.category}</p>
         <div class="product-meta">
           <span class="price">${produto.price}</span>
