@@ -1,13 +1,14 @@
 [
     {
       "id": 1,
-      "name": "Candy",
-      "price": "3€ ",
+      "name": "Árvores decorativas",
+      "price": "4€ ",
       "stock": 1,
       "new": true,
-      "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
+      "description": "Descrição",
       "category": "Natal",
-      "image": "../assets/products/epoca_especial/imagempecas.png"
+      "image": "../assets/products/epoca_especial/Arvores3cores.jpg",
+      "image1": "../assets/products/epoca_especial/ArvoresVerdesGP.jpg"
     },
     {
       "id": 2,
@@ -17,7 +18,79 @@
       "new": true,
       "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
       "category": "Natal",
-      "image": "../assets/products/epoca_especial/imagempecas.png"
+      "image": "../assets/products/epoca_especial/CandyArvore.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Candy Porta-chaves",
+      "price": "3€ ",
+      "stock": 1,
+      "new": true,
+      "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
+      "category": "Natal",
+      "image": "../assets/products/epoca_especial/CandyPortaChaves.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Bolas Natal Brancas",
+      "price": "3,5€ ",
+      "stock": 1,
+      "new": true,
+      "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
+      "category": "Natal",
+      "image": "../assets/products/epoca_especial/BolasBrancas_GMP.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Bolas Natal Vermelhas",
+      "price": "3,5€ ",
+      "stock": 1,
+      "new": true,
+      "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
+      "category": "Natal",
+      "image": "../assets/products/epoca_especial/bolasvermelhas_PMG.jpg"
+    },
+    {
+      "id": 6,
+      "name": "6 Bolas Natal Vermelhas e Brancas",
+      "price": "7€ ",
+      "stock": 1,
+      "new": true,
+      "description": "Pack de 6 Bolas de Natal, 3 Brancas 3 Vermelhas ",
+      "category": "Natal",
+      "image": "../assets/products/epoca_especial/BolaVermelhaMBrancaP.jpg",
+      "image1": "../assets/products/epoca_especial/bolasvermelhas_PMG.jpg",
+      "image2": "../assets/products/epoca_especial/BolasBrancas_GMP.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Caneca Arvore",
+      "price": "3€ ",
+      "stock": 1,
+      "new": true,
+      "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
+      "category": "Natal",
+      "image": "../assets/products/epoca_especial/CanecaArvore.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Caneca Porta-chaves",
+      "price": "2,5€ ",
+      "stock": 1,
+      "new": true,
+      "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
+      "category": "Natal",
+      "image": "../assets/products/portachaves/CanecaPortaChaves.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Merry Christmas",
+      "price": "3€ ",
+      "stock": 1,
+      "new": true,
+      "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
+      "category": "Natal",
+      "image": "../assets/products/epoca_especial/MerryChristmasArvore.jpg"
     }
 
 

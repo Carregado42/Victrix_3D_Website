@@ -9,6 +9,17 @@
       "category": "conquistas",
       "image": "../assets/products/conquistas/quadro.jpg",
       "image2": "../assets/images/imagempecas.png"
+    },
+    {
+      "id": 2,
+      "name": "Suporte Hexagono Medalha",
+      "price": "4,5€ ",
+      "stock": 1,
+      "new": true,
+      "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
+      "category": "conquistas",
+      "image": "../assets/products/conquistas/quadro.jpg",
+      "image2": "../assets/images/imagempecas.png"
     }
 
   ]

@@ -1,34 +1,33 @@
 [
-    {
-      "id": 1,
-      "name": "Peça sobre medida",
-      "price": "preço 10 ",
-      "image": "../assets/images/logo.png",
-      "new": false,
-      "description": "descriçao bla bla bla .",
-      "category": "diversos",
-      "stock": "Disponível"
-    },
-    {
-      "id": 2,
-      "name": "Nome peça",
-      "price": "preço 10 ",
-      "image": "../assets/images/logo.png",
-      "new": true,
-      "description": "descriçao bla bla bla .",
-      "category": "diversos",
-      "stock": "Disponível"
-    },
-    {
-        "id": 3,
-        "name": "Nome peça 3 diversos",
-        "price": "preço 10 ",
-        "image": "../assets/images/logo.png",
-        "new": true,
-        "description": "descriçao bla bla bla .",
-        "category": "diversos",
-        "stock": "Disponível"
-      }
-
-  ]
+  {
+    "id": 1,
+    "name": "Porta-chaves Jiu Jitsu",
+    "price": "3,5€ ",
+    "stock": 1,
+    "new": true,
+    "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
+    "category": "Natal",
+    "image": "../assets/products/portachaves/BJJPretoPortaChaves.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Candy Porta-chaves",
+    "price": "2,5€ ",
+    "stock": 1,
+    "new": true,
+    "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
+    "category": "Natal",
+    "image": "../assets/products/portachaves/CandyPortaChaves.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Caneca Porta-chaves",
+    "price": "2,5€ ",
+    "stock": 1,
+    "new": true,
+    "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
+    "category": "Natal",
+    "image": "../assets/products/portachaves/CanecaPortaChaves.jpg"
+  }
+]
   
