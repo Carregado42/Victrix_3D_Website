@@ -1040,7 +1040,7 @@ main {
   box-shadow: 0 4px 16px rgba(41,37,53,0.10);
   text-align: center;
   transition: transform 0.2s, box-shadow 0.2s;
-  min-height: 280px;
+  min-height: 2800px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1172,7 +1172,6 @@ main {
   
   .product-card img {
     width: 100%;
-    height: 150px;
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: 12px;

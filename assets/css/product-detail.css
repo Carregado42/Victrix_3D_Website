@@ -20,17 +20,13 @@ section.product-detail-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
 }
 
 .product-image-main {
   width: 100%;
-  max-width: 420px;
   height: auto;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 1 / 1;
   object-fit: contain;
-  border-radius: 16px;
-  background: #fff;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
