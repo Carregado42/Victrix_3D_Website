@@ -431,10 +431,12 @@ main {
   gap: 12px;
 }
 
-.contact-list li {
+.contact-list li, 
+.contact-list li a{
  font-size: 1rem;
  color: var(--brand-cloud);
 }
+
 
 .info-card {
  background: var(--surface-card);
