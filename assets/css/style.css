@@ -143,7 +143,6 @@ body {
    4. MAIN CONTAINER
    ======================================== */
 main {
-  min-height: calc(100vh - 120px);
   background: var(--background-light);
 }
 
@@ -544,7 +543,7 @@ main {
 }
 .category-main-title {
   text-align: left;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
   margin-bottom: 40px;
   color: var(--main-title);
