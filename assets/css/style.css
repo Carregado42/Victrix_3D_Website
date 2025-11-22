@@ -1439,6 +1439,13 @@ main {
     margin: 0 auto;
     padding: 0;
   }
+  .product-card img {
+    width: 100%; 
+    /* Adicione uma altura máxima ou fixa para uniformizar o visual */
+    aspect-ratio: 1/1;
+    object-fit: contain; /* Use 'contain' para mostrar a imagem completa sem cortar, ou 'cover' se preferir preencher o espaço, cortando as bordas */
+    border-radius: 8px;
+    margin-bottom: 12px;}
 
   .products-grid {
     grid-template-columns: repeat(4, 1fr);

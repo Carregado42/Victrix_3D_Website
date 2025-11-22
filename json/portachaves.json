@@ -28,6 +28,17 @@
     "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
     "category": "Natal",
     "image": "../assets/products/portachaves/CanecaPortaChaves.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Quadro de medalha personalizado",
+    "price": "20€ ",
+    "stock": 1,
+    "new": true,
+    "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
+    "category": "conquistas",
+    "image": "../assets/products/epoca_especial/MerryChristmasArvore.jpg"
   }
+
 ]
   
