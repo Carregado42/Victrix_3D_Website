@@ -1,25 +1,27 @@
 [
     {
       "id": 1,
-      "name": "Quadro de medalha personalizado",
+      "name": "Quadro de medalha personalizado Brevemente",
       "price": "20€ ",
-      "stock": 1,
-      "new": true,
+      "stock": 0,
+      "new": false,
       "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
       "category": "conquistas",
-      "image": "../assets/products/conquistas/quadro.jpg",
-      "image2": "../assets/images/imagempecas.png"
+      "image": "../assets/products/conquistas/quadro.jpg"
     },
     {
       "id": 2,
-      "name": "Suporte Hexagono Medalha",
+      "name": "Suporte Medalha Hexagono",
       "price": "4,5€ ",
       "stock": 1,
       "new": true,
-      "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
+      "description": "O nosso suporte de medalha para exposição transforma a tua conquista mais importante numa peça de decoração elegante e memorável. Concebido para destacar a sua medalha, ele permite pendurá-la na parede, exibindo-a com a dignidade de uma moldura. É a forma perfeita de celebrar o teu esforço e dedicação, mantendo a tua história de sucesso sempre visível.",
       "category": "conquistas",
-      "image": "../assets/products/conquistas/quadro.jpg",
-      "image2": "../assets/images/imagempecas.png"
+      "image": "../assets/products/conquistas/HexagonoFrente.jpg",
+      "image2": "../assets/products/conquistas/HexagonoTras.jpg",
+      "image3": "../assets/products/conquistas/HexagonoMedalha_fundo1.jpg",
+      "image4": "../assets/products/conquistas/HexagonoMedalha_fundo2.png",
+      "image5": "../assets/products/conquistas/HexagonoMedalha_fundo3.png"
     }
 
   ]

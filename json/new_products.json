@@ -1,46 +1,49 @@
 [
     {
       "id": 1,
-      "name": "Quadro de medalha personalizado",
-      "price": "20€ ",
+      "name": "Bolas de Natal Vermelhas",
+      "price": "3,5€ ",
       "stock": 1,
       "new": true,
-      "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
-      "category": "conquistas",
-      "image": "../assets/products/epoca_especial/MerryChristmasArvore.jpg"
+      "description": "Este conjunto de árvores de Natal minimalistas e geométricas é ideal para decorar secretárias, estantes, lareiras ou como peça central de uma mesa. O design moderno e o formato recortado adicionam uma elegância subtil à tua decoração natalícia.",
+      "category": "Natal",
+      "image": "../assets/products/epoca_especial/BolasVermelhas_GMP.jpg"
     },
     {
       "id": 2,
-      "name": "Quadro de medalha duplo personalizado",
-      "price": "40€ ",
+      "name": "Porta-chaves Jiu Jitsu",
+      "price": "3,5€ ",
       "stock": 1,
       "new": true,
-      "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
-      "category": "conquistas",
-      "image": "../assets/images/logo.png",
-      "image2": "../assets/images/imagempecas.png"
+      "description": "Este porta-chaves é o acessório perfeito para qualquer praticante de Jiu-Jitsu. Simbolizando a dedicação e mestria alcançadas, permite levar o teu orgulho pelo BJJ contigo para todo o lado. É um presente significativo para celebrar a tua jornada na Arte Suave",
+      "category": "Porta-Chaves",
+      "image": "../assets/products/portachaves/BJJ_PRETO.jpg",
+      "image1": "../assets/products/portachaves/BJJ_PRETO_FUNDO.jpg"
     },
     {
       "id": 3,
-      "name": "Quadro de medalha personalizado",
-      "price": "20€ ",
+      "name": "Merry Christmas",
+      "price": "3€ ",
       "stock": 1,
       "new": true,
-      "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
-      "category": "conquistas",
-      "image": "../assets/images/logo.png",
-      "image2": "../assets/images/imagempecas.png"
+      "description": "Esta bola de Natal é a peça central perfeita para a tua árvore. Com a mensagem \"Merry Christmas\" incorporada no design, oferece um toque de alegria e festividade moderna. É uma decoração leve e resistente que capta a luz das decorações.",
+      "category": "Natal",
+      "image": "../assets/products/epoca_especial/MerryChristmasArvore.jpg",
+      "image1": "../assets/products/epoca_especial/MerryChristmasArvore_fundo.jpg"
     },
     {
       "id": 4,
-      "name": "Quadro de medalha duplo personalizado",
-      "price": "40€ ",
+      "name": "Suporte Medalha Hexagono",
+      "price": "4,5€ ",
       "stock": 1,
       "new": true,
-      "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
+      "description": "O nosso suporte de medalha para exposição transforma a tua conquista mais importante numa peça de decoração elegante e memorável. Concebido para destacar a sua medalha, ele permite pendurá-la na parede, exibindo-a com a dignidade de uma moldura. É a forma perfeita de celebrar o teu esforço e dedicação, mantendo a tua história de sucesso sempre visível.",
       "category": "conquistas",
-      "image": "../assets/images/logo.png",
-      "image2": "../assets/images/imagempecas.png"
+      "image": "../assets/products/conquistas/HexagonoFrente.jpg",
+      "image2": "../assets/products/conquistas/HexagonoTras.jpg",
+      "image3": "../assets/products/conquistas/HexagonoMedalha_fundo1.jpg",
+      "image4": "../assets/products/conquistas/HexagonoMedalha_fundo2.png",
+      "image5": "../assets/products/conquistas/HexagonoMedalha_fundo3.png"
     }
 
   

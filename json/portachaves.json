@@ -5,9 +5,10 @@
     "price": "3,5€ ",
     "stock": 1,
     "new": true,
-    "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
-    "category": "Natal",
-    "image": "../assets/products/portachaves/BJJPretoPortaChaves.jpg"
+    "description": "Este porta-chaves é o acessório perfeito para qualquer praticante de Jiu-Jitsu. Simbolizando a dedicação e mestria alcançadas, permite levar o teu orgulho pelo BJJ contigo para todo o lado. É um presente significativo para celebrar a tua jornada na Arte Suave",
+    "category": "Porta-Chaves",
+    "image": "../assets/products/portachaves/BJJ_PRETO.jpg",
+    "image1": "../assets/products/portachaves/BJJ_PRETO_FUNDO.jpg"
   },
   {
     "id": 2,
@@ -15,30 +16,19 @@
     "price": "2,5€ ",
     "stock": 1,
     "new": true,
-    "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
-    "category": "Natal",
+    "description": "Adiciona um toque festivo ao teu dia-a-dia com este porta-chaves/clipe em forma de candy. Perfeito para pendurar em chaves, mochilas ou até mesmo como um pequeno charme decorativo na mala. É um presente ideal para o Natal ou para lembrancinhas.",
+    "category": "Porta-Chaves",
     "image": "../assets/products/portachaves/CandyPortaChaves.jpg"
   },
   {
     "id": 3,
-    "name": "Caneca Porta-chaves",
+    "name": "Caneca Porta-chaves Falta Descrição",
     "price": "2,5€ ",
     "stock": 1,
     "new": true,
-    "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
-    "category": "Natal",
+    "description": "Descrição",
+    "category": "Porta-Chaves",
     "image": "../assets/products/portachaves/CanecaPortaChaves.jpg"
-  },
-  {
-    "id": 4,
-    "name": "Quadro de medalha personalizado",
-    "price": "20€ ",
-    "stock": 1,
-    "new": true,
-    "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
-    "category": "conquistas",
-    "image": "../assets/products/epoca_especial/MerryChristmasArvore.jpg"
   }
-
 ]
   

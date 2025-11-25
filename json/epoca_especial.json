@@ -1,80 +1,65 @@
 [
     {
       "id": 1,
-      "name": "Árvores decorativas",
+      "name": "Árvores decorativas Falta Descrição e Foto de todas",
       "price": "4€ ",
       "stock": 1,
       "new": true,
       "description": "Descrição",
       "category": "Natal",
-      "image": "../assets/products/epoca_especial/Arvores3cores.jpg",
-      "image1": "../assets/products/epoca_especial/ArvoresVerdesGP.jpg"
+      "image": "../assets/products/epoca_especial/Arvores.jpg",
+      "image1": "../assets/products/epoca_especial/ArvoresVerdesGP.jpg",
+      "image2": "../assets/products/epoca_especial/ArvorePretaG.jpg",
+      "image3": "../assets/products/epoca_especial/ArvoreVerdeGP_fundo1.jpg",
+      "image4": "../assets/products/epoca_especial/ArvorePretaG_fundo1.jpg"
+
     },
     {
       "id": 2,
-      "name": "Candy",
-      "price": "3€ ",
-      "stock": 1,
-      "new": true,
-      "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
-      "category": "Natal",
-      "image": "../assets/products/epoca_especial/CandyArvore.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Candy Porta-chaves",
-      "price": "3€ ",
-      "stock": 1,
-      "new": true,
-      "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
-      "category": "Natal",
-      "image": "../assets/products/epoca_especial/CandyPortaChaves.jpg"
-    },
-    {
-      "id": 4,
-      "name": "Bolas Natal Brancas",
+      "name": "Bolas de Natal Brancas",
       "price": "3,5€ ",
       "stock": 1,
       "new": true,
-      "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
+      "description": "Este conjunto de árvores de Natal minimalistas e geométricas é ideal para decorar secretárias, estantes, lareiras ou como peça central de uma mesa. O design moderno e o formato recortado adicionam uma elegância subtil à tua decoração natalícia.",
       "category": "Natal",
       "image": "../assets/products/epoca_especial/BolasBrancas_GMP.jpg"
     },
     {
-      "id": 5,
-      "name": "Bolas Natal Vermelhas",
+      "id": 3,
+      "name": "Bolas de Natal Vermelhas",
       "price": "3,5€ ",
       "stock": 1,
       "new": true,
-      "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
+      "description": "Este conjunto de árvores de Natal minimalistas e geométricas é ideal para decorar secretárias, estantes, lareiras ou como peça central de uma mesa. O design moderno e o formato recortado adicionam uma elegância subtil à tua decoração natalícia.",
       "category": "Natal",
-      "image": "../assets/products/epoca_especial/bolasvermelhas_PMG.jpg"
+      "image": "../assets/products/epoca_especial/BolasVermelhas_GMP.jpg"
     },
     {
-      "id": 6,
-      "name": "6 Bolas Natal Vermelhas e Brancas",
-      "price": "7€ ",
-      "stock": 1,
-      "new": true,
-      "description": "Pack de 6 Bolas de Natal, 3 Brancas 3 Vermelhas ",
-      "category": "Natal",
-      "image": "../assets/products/epoca_especial/BolaVermelhaMBrancaP.jpg",
-      "image1": "../assets/products/epoca_especial/bolasvermelhas_PMG.jpg",
-      "image2": "../assets/products/epoca_especial/BolasBrancas_GMP.jpg"
-    },
-    {
-      "id": 7,
+      "id": 4,
       "name": "Caneca Arvore",
       "price": "3€ ",
       "stock": 1,
       "new": true,
       "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
       "category": "Natal",
-      "image": "../assets/products/epoca_especial/CanecaArvore.jpg"
+      "image": "../assets/products/epoca_especial/CopoChocolate.jpg",
+      "image1": "../assets/products/epoca_especial/CopoChocolate.jpg"
     },
     {
-      "id": 8,
-      "name": "Caneca Porta-chaves",
+      "id": 5,
+      "name": "Merry Christmas",
+      "price": "3€ ",
+      "stock": 1,
+      "new": true,
+      "description": "Esta bola de Natal é a peça central perfeita para a tua árvore. Com a mensagem \"Merry Christmas\" incorporada no design, oferece um toque de alegria e festividade moderna. É uma decoração leve e resistente que capta a luz das decorações.",
+      "category": "Natal",
+      "image": "../assets/products/epoca_especial/MerryChristmasArvore.jpg",
+      "image1": "../assets/products/epoca_especial/MerryChristmasArvore_fundo.jpg"
+
+    },
+    {
+      "id": 6,
+      "name": "Caneca Porta-chaves falta fotos",
       "price": "2,5€ ",
       "stock": 1,
       "new": true,
@@ -83,16 +68,15 @@
       "image": "../assets/products/portachaves/CanecaPortaChaves.jpg"
     },
     {
-      "id": 9,
-      "name": "Merry Christmas",
-      "price": "3€ ",
+      "id": 7,
+      "name": "Candy Porta-chaves",
+      "price": "2,5€ ",
       "stock": 1,
       "new": true,
-      "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
+      "description": "Adiciona um toque festivo ao teu dia-a-dia com este porta-chaves/clipe em forma de candy. Perfeito para pendurar em chaves, mochilas ou até mesmo como um pequeno charme decorativo na mala. É um presente ideal para o Natal ou para lembrancinhas.",
       "category": "Natal",
-      "image": "../assets/products/epoca_especial/MerryChristmasArvore.jpg"
-    }
-
+      "image": "../assets/products/portachaves/CandyPortaChaves.jpg"
+    }  
 
   ]
   

@@ -1,22 +1,12 @@
 [
   {
     "id": 1,
-    "name": "Quadro de medalha personalizado",
-    "price": "20€ ",
+    "name": "Exemplo",
+    "price": "4€ ",
     "stock": 1,
     "new": true,
-    "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
-    "category": "conquistas",
-    "image": "../assets/products/decoracao/teste.jpg"
-  },
-  {
-    "id": 2,
-    "name": "Peça numero 2",
-    "price": "20€ ",
-    "stock": "Disponível",
-    "new": true,
-    "description": "peça decoraçao numero 2",
-    "category": "decoracao",
-    "image": "../assets/images/logo.png"
+    "description": "Descrição",
+    "category": "Natal",
+    "image": "../assets/products/epoca_especial/Arvores.jpg"
   }
 ]
