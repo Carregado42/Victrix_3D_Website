@@ -6,9 +6,9 @@ async function loadAllProducts() {
     // Estes ficheiros serão combinados e todos os produtos serão exibidos.
     const jsonFiles = [
         '../json/conquistas.json', 
-        //'../json/decoracao.json',
-        '../json/epoca_especial.json',
+        '../json/natal.json',
         '../json/portachaves.json', 
+        //'../json/decoracao.json',
  
 
         // Adicione todos os seus ficheiros JSON de produtos aqui!

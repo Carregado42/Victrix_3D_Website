@@ -536,11 +536,49 @@ main {
 }
 
 /* ========================================
-   7. CATEGORY HIGHLIGHT SECTION
+   Botão de epoca especial 
    ======================================== */
+.season-highlight-card {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-decoration: none;
+}
+.season-highlight-title {
+    background: linear-gradient(135deg, #f60404, #280601);
+    color: white;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    letter-spacing: 1px;
+    border: 2px solid #ffffff55;
+}
+
+/* Hover natalício */
+.season-highlight-title:hover {
+    background: linear-gradient(135deg, #f94144, #f9c74f);
+    transform: scale(1.05);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+}
+
+/* Efeito de brilho leve */
+.season-highlight-title::after {
+    margin-left: 8px;
+    opacity: 0.8;
+}
 .category-highlight-section {
   padding: 60px 40px;
 }
+
+/* ========================================
+   7. CATEGORY HIGHLIGHT SECTION
+   ======================================== */
 .category-main-title {
   text-align: left;
   font-size: 2rem;

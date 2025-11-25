@@ -1,26 +1,25 @@
 [
     {
       "id": 1,
-      "name": "Árvores decorativas Falta Descrição e Foto de todas",
+      "name": "Árvores decorativas Falta Foto de todas",
       "price": "4€ ",
       "stock": 1,
       "new": true,
-      "description": "Descrição",
+      "description": "Este conjunto de árvores de Natal minimalistas e geométricas é ideal para decorar secretárias, estantes, lareiras ou como peça central de uma mesa. O design moderno e o formato recortado adicionam uma elegância subtil à tua decoração natalícia.",
       "category": "Natal",
       "image": "../assets/products/epoca_especial/Arvores.jpg",
       "image1": "../assets/products/epoca_especial/ArvoresVerdesGP.jpg",
       "image2": "../assets/products/epoca_especial/ArvorePretaG.jpg",
       "image3": "../assets/products/epoca_especial/ArvoreVerdeGP_fundo1.jpg",
       "image4": "../assets/products/epoca_especial/ArvorePretaG_fundo1.jpg"
-
     },
     {
       "id": 2,
-      "name": "Bolas de Natal Brancas",
+      "name": "Bolas de Natal Brancas Falta descrição",
       "price": "3,5€ ",
       "stock": 1,
       "new": true,
-      "description": "Este conjunto de árvores de Natal minimalistas e geométricas é ideal para decorar secretárias, estantes, lareiras ou como peça central de uma mesa. O design moderno e o formato recortado adicionam uma elegância subtil à tua decoração natalícia.",
+      "description": "DESCRIÇÃO",
       "category": "Natal",
       "image": "../assets/products/epoca_especial/BolasBrancas_GMP.jpg"
     },
@@ -30,9 +29,12 @@
       "price": "3,5€ ",
       "stock": 1,
       "new": true,
-      "description": "Este conjunto de árvores de Natal minimalistas e geométricas é ideal para decorar secretárias, estantes, lareiras ou como peça central de uma mesa. O design moderno e o formato recortado adicionam uma elegância subtil à tua decoração natalícia.",
+      "description": "DESCRIÇÃO",
       "category": "Natal",
-      "image": "../assets/products/epoca_especial/BolasVermelhas_GMP.jpg"
+      "image": "../assets/products/epoca_especial/BolasVermelhas_GMP.jpg",
+      "image1": "../assets/products/epoca_especial/BolaVermelhaG.jpg",
+      "image2": "../assets/products/epoca_especial/BolaVermelhaG_fundo1.jpg"
+      
     },
     {
       "id": 4,
@@ -40,10 +42,10 @@
       "price": "3€ ",
       "stock": 1,
       "new": true,
-      "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
+      "description": "Um ornamento adorável que celebra o conforto do inverno. Esta miniatura de caneca de chocolate quente com marshmallows e uma bengala doce adiciona um toque caseiro e acolhedor à tua árvore de Natal. É perfeito para os amantes de chocolate!",
       "category": "Natal",
       "image": "../assets/products/epoca_especial/CopoChocolate.jpg",
-      "image1": "../assets/products/epoca_especial/CopoChocolate.jpg"
+      "image1": "../assets/products/epoca_especial/CopoChocolate_fundo.jpg"
     },
     {
       "id": 5,
@@ -59,6 +61,18 @@
     },
     {
       "id": 6,
+      "name": "Candy Arvore",
+      "price": "3€ ",
+      "stock": 1,
+      "new": true,
+      "description": "DESCRIÇÃO",
+      "category": "Natal",
+      "image": "../assets/products/epoca_especial/CandyArvore.jpg",
+      "image1": "../assets/products/epoca_especial/CandyArvore_fundo.jpg"
+
+    },
+    {
+      "id": 7,
       "name": "Caneca Porta-chaves falta fotos",
       "price": "2,5€ ",
       "stock": 1,
@@ -68,15 +82,15 @@
       "image": "../assets/products/portachaves/CanecaPortaChaves.jpg"
     },
     {
-      "id": 7,
+      "id": 8,
       "name": "Candy Porta-chaves",
       "price": "2,5€ ",
       "stock": 1,
       "new": true,
       "description": "Adiciona um toque festivo ao teu dia-a-dia com este porta-chaves/clipe em forma de candy. Perfeito para pendurar em chaves, mochilas ou até mesmo como um pequeno charme decorativo na mala. É um presente ideal para o Natal ou para lembrancinhas.",
       "category": "Natal",
-      "image": "../assets/products/portachaves/CandyPortaChaves.jpg"
+      "image": "../assets/products/portachaves/CandyPortaChaves.jpg",
+      "image1": "../assets/products/portachaves/CandyPortaChaves_fundo.jpg"
     }  
-
   ]
   

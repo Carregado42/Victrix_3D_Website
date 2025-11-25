@@ -4,10 +4,10 @@ async function loadNewProducts() {
 
     // Defina aqui todos os caminhos para os seus arquivos JSON
     const jsonFiles = [
-        '../json/portachaves.json',
-        '../json/decoracao.json',
-        '../json/conquistas.json',
-        '../json/epoca_especial.json',
+        '../json/conquistas.json', 
+        '../json/natal.json',
+        '../json/portachaves.json', 
+        //'../json/decoracao.json',
 
         // Adicione outros arquivos JSON aqui, se houver
     ];

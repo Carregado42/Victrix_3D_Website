@@ -1,4 +1,4 @@
-fetch('../json/epoca_especial.json')
+fetch('../json/natal.json')
   .then(res => res.json())
   .then(products => {
     const grid = document.getElementById('product-display-grid');
@@ -8,7 +8,7 @@ fetch('../json/epoca_especial.json')
       card.className = 'product-card';
     
       card.innerHTML = `
-        <a href="../pages/produto.html?id=${p.id}&categoria=epoca_especial" class="product-link">
+        <a href="../pages/produto.html?id=${p.id}&categoria=natal" class="product-link">
           ${p.new ? '<span class="badge-new">Novo</span>' : ''}
           <img src="${p.image}" alt="${p.name}" />
           <h4>${p.name}</h4>
