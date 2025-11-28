@@ -1,17 +1,17 @@
 [
     {
       "id": 1,
-      "name": "Quadro de medalha personalizado Brevemente",
+      "name": "Quadro de medalha personalizado (Brevemente)",
       "price": "20€ ",
       "stock": 0,
       "new": false,
       "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
       "category": "conquistas",
-      "image": "../assets/products/conquistas/quadro.jpg"
+      "image": "../assets/images/logo.png"
     },
     {
       "id": 2,
-      "name": "Suporte Medalha Hexagono",
+      "name": "Suporte Medalha",
       "price": "4,5€ ",
       "stock": 1,
       "new": true,

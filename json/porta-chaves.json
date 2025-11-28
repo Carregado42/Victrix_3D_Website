@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Porta-chaves Jiu Jitsu",
+    "price": "3,5€ ",
+    "stock": 1,
+    "new": true,
+    "description": "Este porta-chaves é o acessório perfeito para qualquer praticante de Jiu-Jitsu. Simbolizando a dedicação e mestria alcançadas, permite levar o teu orgulho pelo BJJ contigo para todo o lado. É um presente significativo para celebrar a tua jornada na Arte Suave",
+    "category": "Porta-Chaves",
+    "image": "../assets/products/portachaves/BJJ_PRETO.jpg",
+    "image1": "../assets/products/portachaves/BJJ_PRETO_FUNDO.jpg"
+  }
+]
+  

@@ -1,17 +1,21 @@
 [
     {
       "id": 1,
-      "name": "Árvores decorativas Falta Foto de todas",
+      "name": "Árvores decorativas",
       "price": "4€ ",
       "stock": 1,
       "new": true,
-      "description": "Este conjunto de árvores de Natal minimalistas e geométricas é ideal para decorar secretárias, estantes, lareiras ou como peça central de uma mesa. O design moderno e o formato recortado adicionam uma elegância subtil à tua decoração natalícia.",
+      "description": "Este conjunto de árvores de Natal minimalistas e geométricas é ideal para decorar secretárias, estantes, lareiras ou como peça central de uma mesa. O design moderno e o formato recortado adicionam uma elegância subtil à tua decoração natalícia. <br> Venda em pack de duas unidades 14 e 11cm.",
       "category": "Natal",
-      "image": "../assets/products/epoca_especial/Arvores.jpg",
-      "image1": "../assets/products/epoca_especial/ArvoresVerdesGP.jpg",
-      "image2": "../assets/products/epoca_especial/ArvorePretaG.jpg",
-      "image3": "../assets/products/epoca_especial/ArvoreVerdeGP_fundo1.jpg",
-      "image4": "../assets/products/epoca_especial/ArvorePretaG_fundo1.jpg"
+      "image": "../assets/products/epoca_especial/Arvores3cores.jpg",
+      "image1": "../assets/products/epoca_especial/Arvores3cores_fundo1.jpg",
+      "image2": "../assets/products/epoca_especial/ArvoresVerdesGP.jpg",
+      "image3": "../assets/products/epoca_especial/ArvorePretaG.jpg",
+      "image4": "../assets/products/epoca_especial/ArvoresVermelhasGP.jpg",  
+      "image5": "../assets/products/epoca_especial/ArvoreVerdeGP_fundo1.jpg",
+      "image6": "../assets/products/epoca_especial/ArvorePretaG_fundo1.jpg",
+      "image7": "../assets/products/epoca_especial/ArvoresVermelhasGP_fundo1.jpg"
+
     },
     {
       "id": 2,
@@ -25,7 +29,7 @@
     },
     {
       "id": 3,
-      "name": "Bolas de Natal Vermelhas",
+      "name": "Bolas de Natal Vermelhas Falta descrição",
       "price": "3,5€ ",
       "stock": 1,
       "new": true,
@@ -38,11 +42,11 @@
     },
     {
       "id": 4,
-      "name": "Caneca Arvore",
+      "name": "Caneca de Chocolate",
       "price": "3€ ",
       "stock": 1,
       "new": true,
-      "description": "Um ornamento adorável que celebra o conforto do inverno. Esta miniatura de caneca de chocolate quente com marshmallows e uma bengala doce adiciona um toque caseiro e acolhedor à tua árvore de Natal. É perfeito para os amantes de chocolate!",
+      "description": "Um ornamento adorável que celebra o conforto do inverno! <br> Esta miniatura de caneca de chocolate quente com marshmallows e uma bengala doce adiciona um toque caseiro e acolhedor à tua árvore de Natal. É perfeito para os amantes de chocolate!",
       "category": "Natal",
       "image": "../assets/products/epoca_especial/CopoChocolate.jpg",
       "image1": "../assets/products/epoca_especial/CopoChocolate_fundo.jpg"
@@ -53,11 +57,12 @@
       "price": "3€ ",
       "stock": 1,
       "new": true,
-      "description": "Esta bola de Natal é a peça central perfeita para a tua árvore. Com a mensagem \"Merry Christmas\" incorporada no design, oferece um toque de alegria e festividade moderna. É uma decoração leve e resistente que capta a luz das decorações.",
+      "description": "Esta bola de Natal é a peça central perfeita para a tua árvore. <br> Com a mensagem \"Merry Christmas\" incorporada no design, oferece um toque de alegria e festividade moderna. É uma decoração leve e resistente que capta a luz das decorações.",
       "category": "Natal",
       "image": "../assets/products/epoca_especial/MerryChristmasArvore.jpg",
-      "image1": "../assets/products/epoca_especial/MerryChristmasArvore_fundo.jpg"
-
+      "image1": "../assets/products/epoca_especial/MerryChristmasArvoreB.jpg",
+      "image2": "../assets/products/epoca_especial/MerryChristmasArvore_fundo.jpg",
+      "image3": "../assets/products/epoca_especial/MerryChristmasArvoreB_fundo2.jpg"
     },
     {
       "id": 6,
@@ -65,21 +70,20 @@
       "price": "3€ ",
       "stock": 1,
       "new": true,
-      "description": "DESCRIÇÃO",
+      "description": "Um ornamento clássico de Bengala Doce. Esta peça simples, mas icónica, traz o charme tradicional do Natal à sua decoração. É leve e seguro para pendurar em qualquer ramo da árvore, e é excelente para preencher espaços.",
       "category": "Natal",
       "image": "../assets/products/epoca_especial/CandyArvore.jpg",
-      "image1": "../assets/products/epoca_especial/CandyArvore_fundo.jpg"
-
+      "image1": "../assets/products/epoca_especial/CandyArvore_fundo1.jpg"
     },
     {
       "id": 7,
-      "name": "Caneca Porta-chaves falta fotos",
+      "name": "Caneca de Chocolate Porta-chaves falta descriçao",
       "price": "2,5€ ",
       "stock": 1,
       "new": true,
       "description": "Quadro feito em PLA resistente até temperaturas de 60 Graus, dimensoes 16:9",
       "category": "Natal",
-      "image": "../assets/products/portachaves/CanecaPortaChaves.jpg"
+      "image": "../assets/products/portachaves/CopoChocolate_portachaves.jpg"
     },
     {
       "id": 8,

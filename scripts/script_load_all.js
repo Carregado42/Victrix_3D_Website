@@ -7,7 +7,7 @@ async function loadAllProducts() {
     const jsonFiles = [
         '../json/conquistas.json', 
         '../json/natal.json',
-        '../json/portachaves.json', 
+        '../json/porta-chaves.json', 
         //'../json/decoracao.json',
  
 
