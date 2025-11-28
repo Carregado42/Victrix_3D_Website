@@ -153,7 +153,6 @@ main {
   padding: 60px 24px;
   background: linear-gradient(120deg, #0f172a 0%, #1e3a8a 50%, #2563eb 100%);
   color: #f8fafc;
-  display: grid;
   grid-template-columns: 1fr;
   gap: 32px;
 }
@@ -173,7 +172,6 @@ main {
 }
 
 .page-hero__content p {
-  max-width: 48ch;
   color: #e2e8f0;
 }
 
