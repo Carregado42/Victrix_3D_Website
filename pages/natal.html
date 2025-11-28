@@ -30,5 +30,21 @@
   <script src="../scripts/script_epoca_especial.js"></script>
   <script src="../scripts/script_new_arrival.js"></script>
   
+<script>
+    var d = new Date();
+    var timestamp = d.getTime();
+    function loadCSS(filePath) {
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = filePath + '?v=' + timestamp;
+        document.getElementsByTagName('head')[0].appendChild(link);
+    }
+
+    // 3. CHAMA a função para CADA arquivo CSS
+    loadCSS('assets/css/style.css');
+    loadCSS('assets/css/product-detail.css'); // <--- Seu SEGUNDO arquivo
+
+</script>
 </body>
 </html>
