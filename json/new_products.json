@@ -22,10 +22,10 @@
     "category": "conquistas",
     "image": "../assets/products/conquistas/HexagonoFrente.jpg",
     "image2": "../assets/products/conquistas/HexagonoTras.jpg",
-    "image3": "../assets/products/conquistas/HexagonoMedalha_fundo1.jpg",
-    "image4": "../assets/products/conquistas/HexagonoMedalha_fundo2.png",
-    "image5": "../assets/products/conquistas/HexagonoMedalha_fundo3.png"
-  },
+    "image3": "../assets/products/conquistas/HexagonoMedalha_f1.jpg",
+    "image4": "../assets/products/conquistas/HexagonoMedalha_f2.png",
+    "image5": "../assets/products/conquistas/HexagonoMedalha_f3.png"
+},
     {
       "id": 3,
       "name": "Merry Christmas",
