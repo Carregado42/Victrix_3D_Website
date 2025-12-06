@@ -6,11 +6,11 @@
     "stock": 1,
     "new": true,
     "description": "Eleva a decoração da tua árvore de Natal com o nosso conjunto de enfeites em espiral. Estas bolas apresentam uma estrutura geométrica que não só é visualmente deslumbrante, como permite que as luzes da tua árvore brilhem através delas, criando um jogo de sombras e luminosidade único. São a escolha perfeita para quem procura um estilo moderno, elegante e minimalista.",
-    "category": "Natal",
+    "category": "natal",
     "image": "../assets/products/epoca_especial/BolasVermelhas_GMP.jpg",
     "image1": "../assets/products/epoca_especial/BolaVermelhaG.jpg",
-    "image2": "../assets/products/epoca_especial/BolaVermelhaG_fundo1.jpg"
-  
+    "image2": "../assets/products/epoca_especial/BolaVermelhaG_f1.jpg"
+
   },
   {
     "id": 2,
