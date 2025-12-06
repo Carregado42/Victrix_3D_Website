@@ -25,7 +25,7 @@
  --surface-muted: #dbeafe;
  --announcement-bar: var(--brand-indigo);
  --main-blue: var(--brand-royal);
- --main-title: var(--brand-royal);
+ --main-title: #5f6976;
  --text-dark: #0f172a;
  --text-light: #94a3b8;
  --background-light: #f8fafcef;
@@ -709,7 +709,7 @@ main {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 40px;
-  color: var(--main-blue);
+  color: var(--main-title);
 }
 
 .why-cards-grid {
@@ -780,7 +780,7 @@ main {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 40px;
-  color: var(--main-blue);
+  color: var(--main-title);
 }
 
 .community-feed-grid {
